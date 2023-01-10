@@ -69,16 +69,23 @@ hr {
 }
 .bottom-container {
   background-color: #66bfbf;
-  height: 68px;
+  height: 85px;
+  position: relative;
 }
 .btn {
-  background-color: #11959a;
+  background-color: #3498db;
   color: white;
   display: inline-block;
   width: 130px;
+  border-radius: 28px;
+}
+.btn:hover {
+  background: #3cb0fd;
 }
 .contact-me {
   margin: 30px 0;
+
+  background-color: #eafdfc;
 }
 .skill-row {
   width: 50%;
@@ -93,7 +100,14 @@ hr {
 .footer-link {
   padding: 20px;
   color: #137478;
+  position: relative;
+  top: 11px;
 }
 .copyright {
   color: #eaf6f6;
+  margin-top: 40px;
+}
+.full-body {
+  background-color: #eafdfc;
+  display: inline-block;
 }
